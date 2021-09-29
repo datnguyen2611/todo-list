@@ -2,6 +2,16 @@
     font-size: 24px;
     font-weight: 300;
     color: #4d4d4d;
+    display: flex;
+    align-items: center;
+}
+.TodoItem > p{
+    margin:0 0 0 10px;
+    padding: 10px 5px;
+    border-bottom: 1px solid #EEE;
+}
+.TodoItem:last-child{
+    border-bottom: none;
 }
 .TodoItem-complete{
     text-decoration: line-through;
